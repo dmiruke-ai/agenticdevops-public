@@ -5,7 +5,6 @@
 
 [![Live API](https://img.shields.io/badge/Live%20API-Swagger%20UI-b48cff?style=flat-square)](http://37.27.97.75:8000/docs)
 [![Grafana](https://img.shields.io/badge/Observability-Grafana-f59e0b?style=flat-square)](http://37.27.97.75:3010/)
-[![Jaeger](https://img.shields.io/badge/Tracing-Jaeger-e08a2b?style=flat-square)](http://37.27.97.75:16686/)
 [![Prometheus](https://img.shields.io/badge/Metrics-Prometheus-e6522c?style=flat-square)](http://37.27.97.75:9090/)
 
 # AgenticDevops — AI DevOps Agent Platform
@@ -22,7 +21,6 @@
 | **API (Swagger UI)** | [http://37.27.97.75:8000/docs](http://37.27.97.75:8000/docs) — interactive endpoint explorer, try-it-out enabled |
 | **Grafana** | [http://37.27.97.75:3010/](http://37.27.97.75:3010/) — agent pipeline dashboards (anon viewer · admin `admin/devops123`) |
 | **Prometheus** | [http://37.27.97.75:9090/](http://37.27.97.75:9090/) — 30+ custom series (intent latency · replan count · OPA gate outcomes) |
-| **Jaeger** | [http://37.27.97.75:16686/](http://37.27.97.75:16686/) — distributed traces per pipeline execution |
 
 ---
 
