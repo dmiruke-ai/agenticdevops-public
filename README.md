@@ -3,10 +3,26 @@
 [![Demo](https://img.shields.io/badge/Live%20Demo-agenticdevops--demo-5fc77a?style=for-the-badge)](https://github.com/dmiruke-ai/agenticdevops-demo)
 [![Tests](https://img.shields.io/badge/Tests-426%20passing-brightgreen?style=for-the-badge)]()
 
+[![Live API](https://img.shields.io/badge/Live%20API-Swagger%20UI-b48cff?style=flat-square)](http://37.27.97.75:8000/docs)
+[![Grafana](https://img.shields.io/badge/Observability-Grafana-f59e0b?style=flat-square)](http://37.27.97.75:3010/)
+[![Jaeger](https://img.shields.io/badge/Tracing-Jaeger-e08a2b?style=flat-square)](http://37.27.97.75:16686/)
+[![Prometheus](https://img.shields.io/badge/Metrics-Prometheus-e6522c?style=flat-square)](http://37.27.97.75:9090/)
+
 # AgenticDevops — AI DevOps Agent Platform
 
 > Portfolio showcase for **AgenticDevops** — an AI-powered multi-agent platform that converts conversational intent into production-ready cloud infrastructure.  
 > Source code: **[dmiruke-ai/AgenticDevops](https://github.com/dmiruke-ai/AgenticDevops)**
+
+---
+
+## Live System
+
+| | |
+|---|---|
+| **API (Swagger UI)** | [http://37.27.97.75:8000/docs](http://37.27.97.75:8000/docs) — interactive endpoint explorer, try-it-out enabled |
+| **Grafana** | [http://37.27.97.75:3010/](http://37.27.97.75:3010/) — agent pipeline dashboards (anon viewer · admin `admin/devops123`) |
+| **Prometheus** | [http://37.27.97.75:9090/](http://37.27.97.75:9090/) — 30+ custom series (intent latency · replan count · OPA gate outcomes) |
+| **Jaeger** | [http://37.27.97.75:16686/](http://37.27.97.75:16686/) — distributed traces per pipeline execution |
 
 ---
 
@@ -145,11 +161,12 @@ Three scenarios in under 2 minutes:
 
 | Document | Description |
 |----------|-------------|
-| [Architecture](https://github.com/dmiruke-ai/AgenticDevops/blob/main/architecture/ARCHITECTURE.md) | System design, data flow, component responsibilities |
+| [Architecture](docs/ARCHITECTURE.md) | System design, data flow, component responsibilities |
+| [IntentSpec model](examples/intent_spec.py) | Core data model — confidence bands, state machine, transition rules |
+| [Intro demo](examples/demo_intro.py) | Walkthrough: natural language → validated Terraform + CI/CD |
 | [FinOps Analysis](https://github.com/dmiruke-ai/AgenticDevops/blob/main/docs/FINOPS_ANALYSIS.md) | Tree-of-Thought cost scoring methodology |
 | [Sprint 3 Summary](https://github.com/dmiruke-ai/AgenticDevops/blob/main/docs/SPRINT_3_SUMMARY.md) | Validation + Security implementation |
 | [Sprint 4 Summary](https://github.com/dmiruke-ai/AgenticDevops/blob/main/docs/SPRINT_4_SUMMARY.md) | Observability + HITL implementation |
-| [Demo Preview](https://github.com/dmiruke-ai/AgenticDevops/blob/main/docs/DEMO_PREVIEW.md) | Screenshots and full output preview |
 
 ---
 
