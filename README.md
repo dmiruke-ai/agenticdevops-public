@@ -3,7 +3,9 @@
 [![Demo](https://img.shields.io/badge/Live%20Demo-agenticdevops--demo-5fc77a?style=for-the-badge)](https://github.com/dmiruke-ai/agenticdevops-demo)
 [![Tests](https://img.shields.io/badge/Tests-426%20passing-brightgreen?style=for-the-badge)]()
 
+[![Live API](https://img.shields.io/badge/Live%20API-Swagger%20UI-b48cff?style=flat-square)](https://devops-api.dmiruke.dev/docs)
 [![Grafana](https://img.shields.io/badge/Observability-Grafana-f59e0b?style=flat-square)](https://devops-grafana.dmiruke.dev/)
+[![Prometheus](https://img.shields.io/badge/Metrics-Prometheus-e6522c?style=flat-square)](https://devops-prometheus.dmiruke.dev/)
 
 # AgenticDevops — AI DevOps Agent Platform
 
@@ -16,7 +18,9 @@
 
 | | |
 |---|---|
+| **API (Swagger UI)** | [devops-api.dmiruke.dev/docs](https://devops-api.dmiruke.dev/docs) — interactive endpoint explorer, try-it-out enabled |
 | **Grafana** | [devops-grafana.dmiruke.dev](https://devops-grafana.dmiruke.dev/) — agent pipeline dashboards (anon viewer) |
+| **Prometheus** | [devops-prometheus.dmiruke.dev](https://devops-prometheus.dmiruke.dev/) — 30+ custom series (intent latency · replan count · OPA gate outcomes) |
 
 ---
 
